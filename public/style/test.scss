@@ -1,0 +1,15 @@
+h1 {
+  font-family: 'Playfair Display', serif;
+}
+
+p {
+  color: blue;
+  width: 40px;
+}
+
+a {
+  color: red;
+  &:hover {
+    color: blue;
+  }
+}

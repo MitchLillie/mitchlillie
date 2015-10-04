@@ -1,0 +1,10 @@
+p {
+  color: blue;
+  width: 40px; }
+
+a {
+  color: red; }
+  a:hover {
+    color: blue; }
+
+/*# sourceMappingURL=test.css.map */
