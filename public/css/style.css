@@ -52,6 +52,7 @@ b.glyphicon {
    width: 180px;
    margin: 19px 20px, 13px;
    background-size: auto 20px;
+   margin-bottom: 20px;
 }
 
 .media-object {
@@ -88,6 +89,7 @@ b.glyphicon {
 }
 
 #sidenav li.active {
+   color: red;
   border:0 #eee solid;
   border-right-width:5px;
 }
