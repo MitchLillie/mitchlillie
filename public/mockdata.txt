@@ -1,0 +1,29 @@
+/* ignore */
+
+(jumboSrc, jumboAlt, leadText, leadPara, oneSrc, oneAlt, oneTitle, onePara, twoSrc, twoAlt, twoTitle, twoPara, threeSrc, threeAlt, threeTitle, threePara, finalSrc, finalAlt, finalTitle, finalPara)
+
+('/static/images/casestudies/goodcider/strong-bottles.JPG',
+'Label design for Good Cider',
+'Good Cider, 2015',
+'Taking a Portland-based cidery from the garage to the stars.',
+
+'/static/images/casestudies/goodcider/concepts.jpg',
+'From top left: Reynolds and Reyner packaging for POM POM, Seattle Cider packaging, Tundra Pro header by Max Olson, Tundra specimen. Center: Summit shirt design by Max Olson.',
+'How do we make a distinct style without betraying the simplicity of Good Cider?',
+'The bottle design started with a font: Tundra Pro, designed by a friend of one of the cidermakers. Taking inspiration from Tundra''s diagonal-happy alternate glyphs and Olson''s t-shirt designs, we worked out a moodboard as a starting point.',
+
+'/static/images/casestudies/goodcider/fonts.jpg',
+'Fonts explored in the creation of the label.',
+'When is a wild typeface too wild?',
+'Though lovers of Tundra Pro for its unique style, we all decided it might be too distinct for the main display font. We found a similar alternative, Lulo Clean, that keeps the general look of Tundra without compromising on readability.',
+
+'/static/images/casestudies/goodcider/forms.jpg',
+'Geometric diagonal designs to compliment the label.',
+'How do we dress geometrically but not mathy?',
+'Wide, diagonal lines were the best solution to hearken to the simplicity of the brand and the single-varietal cider blends.',
+
+'/static/images/casestudies/goodcider/labels.jpg',
+'The final label designs for dry, sweet and strong ciders.',
+'How do liquid ideas flow into tangible bottles?',
+'Playful, recognizable fonts and colors define the Good Cider brand and dominate the simple label. Coming soon in 2016.'
+)

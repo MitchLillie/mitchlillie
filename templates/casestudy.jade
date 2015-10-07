@@ -5,52 +5,39 @@ block content
       .carousel.slide(data-ride="carousel")
          .carousel-inner
             .item.active
-               img.img-responsive(src="http://#{jumboSrc}" alt="#{jumboAlt}")
+               img.img-responsive(src="#{jumbosrc}" alt="#{jumboalt}")
                .carousel-caption
-                  h1.lead #{leadText}
-                  p.lead #{leadPara}
+                  h1.lead #{leadtext}
+                  p.lead #{leadpara}
    .container#top
       .row
-         a.anchor#casestudies
          nav.col-sm-3
             #sidebar
-               h2 Case studies
+               h2#number one
                .forms
                ul.nav.nav-stacked#sidenav
                   li
-                     a(href="#one") Planning
+                     a#one(href="#one") #{onetitle}
                   li
-                     a(href="#two") Execution
+                     a#two(href="#two") #{twotitle}
                   li
-                     a(href="#three") Design
+                     a#three(href="#three") #{threetitle}
+                  li
+                     a#final(href="#final") #{finaltitle}
                   
          a.anchor#one
          .col-sm-5
             a(href="#")
-               img.img-responsive(src="/static/images/casestudies/goodcider/strong-bottles.jpg")
+               img.img-responsive(src="#{onesrc}" alt="#{onealt}")
          .col-sm-3
-            h3 Good Cider
-            p.
-               Packaging and branding for three
-               revolutionary cider blends. 
-            p.text-muted
-               Adobe Illustrator & Photoshop CS6; Identity-making, color palettes & market strategy.
-            form(action="#")
-               button.btn.btn-info(type='submit' value='View Case Study') View Case Study 
-                  span.glyphicon.glyphicon-chevron-right
+            h3 #{onetitle}
+            p #{onepara}
       .row.top-buffer
          a.anchor#two
          .col-sm-5.col-sm-offset-3
             a(href="#")
-               img.img-responsive(src="/static/images/casestudies/ppnyearbook/final.jpg")
+               img.img-responsive(src="#{twosrc}" alt="#{twoalt}")
          .col-sm-3
-            h3 PDX Pop Now! Yearbook
-            p.
-               Production design and collage 
-               for Willamette Week's coverage 
-               of Portland's coolest festival.
-            p.text-muted Adobe InDesign, Photoshop; Large-scale collaboration, deadline management, fair use sourcing.
-            form(action="#")
-               button.btn.btn-info(type='submit' value='View Case Study') View Case Study 
-                  span.glyphicon.glyphicon-chevron-right
+            h3 #{twotitle}
+            p #{twopara}
                    
