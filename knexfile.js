@@ -5,10 +5,10 @@ module.exports = {
   development: {
     client: 'postgresql',
     connection: {
-      host     : process.env.APP_DB_HOST || '127.0.0.1',
-      user     : process.env.APP_DB_USER || '',
-      password : process.env.APP_DB_PASSWORD || '',
-      database : process.env.APP_DB_NAME || 'jsi-knex-db'
+      host     : process.env.APP_DB_HOST,
+      user     : process.env.APP_DB_USER,
+      password : process.env.APP_DB_PASSWORD,
+      database : process.env.APP_DB_NAME
     }
   },
 
@@ -31,9 +31,10 @@ module.exports = {
   production: {
     client: 'postgresql',
     connection: {
-      database: 'my_db',
-      user:     'username',
-      password: 'password'
+      host     : process.env.APP_DB_HOST,
+      user     : process.env.APP_DB_USER,
+      password : process.env.APP_DB_PASSWORD,
+      database : process.env.APP_DB_NAME
     },
     pool: {
       min: 2,
