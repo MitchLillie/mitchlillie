@@ -19,7 +19,7 @@ $('#sidebar').affix({
       return (this.top = heightOf('.jumbotron') - heightOf('.navbar-fixed-top'))
     },
     bottom: function () {
-      return (this.bottom = heightOf('body') - heightOf('#divider', '#bottom', '#footer'))
+      return (this.bottom = heightOf('body') - heightOf('#bottom', '#footer'))
     }
     // #sidebar(data-spy="affix" data-offset-top="1000" data-offset-bottom="700")
   }
