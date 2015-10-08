@@ -11,6 +11,7 @@ $(document).ready(function () {
     console.log('base---->', base)
     return base
   }
+  // (data-spy="scroll" data-target="#sidebar")
 
   $('#sidebar').affix({
     offset: {
