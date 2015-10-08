@@ -19,7 +19,7 @@ $('#sidebar').affix({
       return (this.top = heightOf('.jumbotron') - heightOf('.navbar-fixed-top'))
     },
     bottom: function () {
-      return (this.bottom = heightOf('body') - heightOf('#bottom', '#footer') - 200)
+      return (this.bottom = heightOf('#divider', '#bottom', '#footer'))
     }
     // #sidebar(data-spy="affix" data-offset-top="1000" data-offset-bottom="700")
   }
@@ -30,6 +30,7 @@ function heightOf (el /*, el2, ... */) {
   for (var z = 1; z < arguments.length; z++) {
     base += $(arguments[z]).outerHeight(true)
   }
+  console.log('arg----->', arguments)
   console.log('base---->', base)
   return base
 }
