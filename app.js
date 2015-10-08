@@ -5,7 +5,15 @@ var logger = require('morgan')
 
 // var pg = require('pg')
 var env = process.env.NODE_ENV || 'development'
-var knexConfig = require('./knexfile.js')[env]
+var knexConfig = process.env.HEROKU ? {
+  client: 'postgresql',
+  connection: {
+    host: process.env.APP_DB_HOST,
+    user: process.env.APP_DB_USER,
+    password: process.env.APP_DB_PASSWORD,
+    database: process.env.APP_DB_NAME
+  }
+} : require('./knexfile.js')[env]
 var knex = require('knex')(knexConfig)
 
 var app = express()
@@ -17,6 +25,10 @@ app.set('views', __dirname + '/templates')
 
 app.get('/', function (req, res) {
   res.render('index')
+})
+
+app.get('/story', function (req, res) {
+  res.render('story')
 })
 
 app.get('/casestudies/:title?', function (req, res) {

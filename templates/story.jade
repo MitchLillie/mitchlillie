@@ -1,0 +1,91 @@
+extends ./layout.jade
+
+block content
+  .jumbotron
+    .carousel.slide(data-ride="carousel")
+       .carousel-inner
+          .item.active
+             img.img-responsive(src="static/images/story/storyjumbo.jpg" alt="It's me, Mitch Lillie.")
+             .carousel-caption
+                h1 Globetrotter, teacher, designer, programmer
+  .container#top
+    .row
+       a.anchor#story
+       nav.col-sm-3
+          #sidebar
+             h2 My story
+             .forms
+       a.anchor
+       .col-sm-2
+          a(href="#")
+             img.img-responsive(src="/static/images/story/grad.jpg")
+       .col-sm-6
+          h4 Subtropics
+          p.
+             I was green in the brown desert,
+             but probably the only Lit major
+             working in two psychology labs
+             and taking ethnomusicology
+             courses.
+          p.text-muted BA English Literature, <em>summa cum laude</em>, Barrett the Honors College at Arizona State University, 2009
+    .row.top-buffer
+       .col-sm-2.col-sm-offset-2
+          a(href="#")
+             img.img-responsive(src="/static/images/story/icefishing.jpg")
+       .col-sm-6
+          h4 Smelt
+          p.
+             Ice fishing. Caviar. Vodka. New
+             Year's. Solace. Progressive house.
+             Spreading my love for the English
+             language to students from 10 to 65.
+             That's Why Russia.
+          p.text-muted English instructor, Yuzhno-Sakhalinsk, Russia, 2010-2012
+    .row.top-buffer
+       .col-sm-2.col-sm-offset-4
+          a(href="#")
+             img.img-responsive(src="/static/images/story/pelican.jpg")
+       .col-sm-6
+          h4 Pelican
+          p.
+             Then I found Oregon...
+          p.text-muted Proud homebrewer, beachcomber...
+    .row.top-buffer
+       .col-sm-2.col-sm-offset-2
+          a(href="#")
+             img.img-responsive(src="/static/images/story/bikedj.jpg")
+       .col-sm-6
+          h4 Reflective
+          p.
+             Portland...
+          p.text-muted DJ, cyclist, weirdo...
+    .row.top-buffer
+       .col-sm-2.col-sm-offset-3
+          a(href="#")
+             img.img-responsive(src="/static/images/story/backpacking.jpg")
+       .col-sm-6
+          h4 Pass
+          p.
+             the greater northwest...
+          p.text-muted backpacker, river dweller...
+    .row.top-buffer
+       .col-sm-2.col-sm-offset-2
+          a(href="#")
+             img.img-responsive(src="/static/images/story/MitchandJazz.jpg")
+       .col-sm-6.col-sm-offset-1
+          h4 Love
+          p.
+             and a beautiful lady, and thought I'd stay a while.
+          p.text-muted Hi Jazzmine!
+    .row.top-buffer
+       .col-sm-2.col-sm-offset-2
+          a(href="#")
+             img.img-responsive(src="http://lorempixel.com/640/480/technics")
+       .col-sm-6.col-sm-offset-1
+          h4 Why code?
+          p.
+             and a beautiful lady, and thought I'd stay a while.
+          p.text-muted Hi Jazzmine!
+
+  .row.top-buffer#footer
+    img.img-responsive(src="http://lorempixel.com/1900/400")

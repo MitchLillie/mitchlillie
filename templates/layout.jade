@@ -2,10 +2,13 @@ doctype html
 html(lang="en")
   include ./partials/_head.jade
 
-  body
+  body(data-spy="scroll" data-target="#sidebar")
     .navbar.navbar-inverse.navbar-fixed-top
       .container
         include ./partials/_bar.jade
     include ./partials/_contact.jade
     block content
+    
+    script(type="text/javascript" src="/static/js/bootstrap.min.js")
+    script(type="text/javascript" src="/static/js/main.js")
     
