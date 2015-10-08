@@ -1,6 +1,20 @@
 /* global $ */
 /* (CDNs included in index.html) */
 
+function twoFiftySix () {
+  var color = Math.floor(Math.random() * (256))
+  return color < 240 ? color : twoFiftySix()
+}
+
+function randomColors () {
+  $('.chaptertitle').each(function (i, e) {
+    var r = twoFiftySix()
+    var g = twoFiftySix()
+    var b = twoFiftySix()
+    $(e).css('color', 'rgba(' + r + ',' + g + ',' + b + ', 0.3)')
+  })
+}
+
 $(document).ready(function () {
   function heightOf (el /*, el2, ... */) {
     var base = $(el).outerHeight(true)
@@ -37,4 +51,5 @@ $(document).ready(function () {
          // #storybar(data-spy="affix" data-offset-top="2000")
     }
   })
+  randomColors()
 })

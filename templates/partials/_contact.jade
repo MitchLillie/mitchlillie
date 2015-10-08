@@ -3,12 +3,11 @@
     .modal-content
       .modal-header
         button.close(data-dismiss="modal" aria-hidden="true") &times;
-        h2 Get in touch!
+        h2 Say hello.
       .modal-body
-        p Enter your email below and I'll send you a personal message.
-        form.form
-          div.form-group
-            label.sr-only(for="emailAddr") Email address
-            input(type="email" id="emailAddr" placeholder="you@there.com")
-        button.btn.btn-primary(type="submit" data-dismiss="modal") Send
+        p. 
+          Informational interview? Professional advice? 
+          The best junior dev position in Portland? 
+        | <p><h4><a href="mailto:mitchWOOmitchlillieHOOcom" onclick = "this.href = this.href.replace(/WOO/, '&#64;').replace(/HOO/, '&#46;')">I'm game!</a></h4></p>
+        p.text-muted If you'd prefer the more direct approach, you can reach me at mitch at this very domain (mitchlillie.com)
         

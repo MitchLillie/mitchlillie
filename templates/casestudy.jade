@@ -13,17 +13,17 @@ block content
       .row
          nav.col-sm-3
             #sidebar
-               h2#number one
+               h2 #{leadtext}
                .forms
                ul.nav.nav-stacked#sidenav
                   li
-                     a#one(href="#one") #{onetitle}
+                     a(href="#one") one
                   li
-                     a#two(href="#two") #{twotitle}
+                     a(href="#two") two
                   li
-                     a#three(href="#three") #{threetitle}
+                     a(href="#three") three
                   li
-                     a#final(href="#final") #{finaltitle}
+                     a(href="#final") done
                   
          a.anchor#one
          .col-sm-5
@@ -40,4 +40,22 @@ block content
          .col-sm-3
             h3 #{twotitle}
             p #{twopara}
+      .row.top-buffer
+         a.anchor#three
+         .col-sm-4.col-sm-offset-4
+            a(href="#")
+               img.img-responsive(src="#{threesrc}" alt="#{threealt}")
+         .col-sm-3
+            h3 #{threetitle}
+            p #{threepara}
+      .row.final.top-buffer.bottom-buffer
+        .row.top-buffer
+           a.anchor#final
+           .col-sm-8.col-sm-offset-3
+              a(href="#")
+                 img.img-responsive(src="#{finalsrc}" alt="#{finalalt}")
+        .row
+          .col-sm-5.col-sm-offset-3
+              h3 #{finaltitle}
+              p #{finalpara}
                    

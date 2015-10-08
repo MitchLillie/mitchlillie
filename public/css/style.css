@@ -1,5 +1,6 @@
 body {
    font-family: 'Yantramanav', sans-serif;
+   font-size: 15px;
 }
 
 h1, h2, h3, h4 {
@@ -9,8 +10,10 @@ h1, h2, h3, h4 {
 
 #hi {
    font-family: 'Aladin', cursive;
+   font-size: 35px;
+   /*line-height: 30px;*/
    color: aqua;
-}
+ }
 
 a.anchor {
    display: block;
@@ -89,7 +92,21 @@ b.glyphicon {
 }
 
 #sidenav li.active {
-   color: red;
   border:0 #eee solid;
   border-right-width:5px;
+}
+
+ul#topmenu {
+  font-size: 15px;
+  color: white;
+}
+
+.final {
+  border: 5px solid aqua;
+  padding: 2px;
+}
+
+#sidebar {
+  background-color: white;
+  min-width: 260px;
 }
