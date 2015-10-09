@@ -2,6 +2,34 @@
 
 (jumboSrc, jumboAlt, leadText, leadPara, oneSrc, oneAlt, oneTitle, onePara, twoSrc, twoAlt, twoTitle, twoPara, threeSrc, threeAlt, threeTitle, threePara, finalSrc, finalAlt, finalTitle, finalPara)
 
+/* ML.com */
+('/static/images/casestudies/mlcom/blinking.gif',
+'My code with a blinking cursor',
+'Portfolio, 2015',
+'My happy-go-lucky portfolio site gets a non-trivial upgrade.',
+
+'/static/images/casestudies/mlcom/express.gif',
+'A gif showing the creation of an Express route',
+'How can I overdo it?',
+'I''m a web developer, not a static-site maker. I set out from the start to craft code that not only works, but also showcases my abilities to potential employers—and makes my peers jealous.', 
+
+'/static/images/casestudies/goodcider/fonts.jpg',
+'Fonts explored in the creation of the label.',
+'When is a wild typeface too wild?',
+'Though lovers of Tundra Pro for its unique style, we all decided it might be too distinct for the main display font. We found a similar alternative, Lulo Clean, that keeps the general look of Tundra without compromising on readability.',
+
+'/static/images/casestudies/goodcider/forms.jpg',
+'Geometric diagonal designs to compliment the label.',
+'How do we dress geometrically but not mathy?',
+'Wide, diagonal lines were the best solution to hearken to the simplicity of the brand and the single-varietal cider blends.',
+
+'/static/images/casestudies/goodcider/labels.jpg',
+'The final label designs for dry, sweet and strong ciders.',
+'How do liquid ideas flow into tangible bottles?',
+'Playful, recognizable fonts and colors define the Good Cider brand and dominate the simple label. Coming soon in 2016.'
+)
+
+/* Good Cider */
 ('/static/images/casestudies/goodcider/strong-bottles.JPG',
 'Label design for Good Cider',
 'Good Cider, 2015',

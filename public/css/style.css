@@ -110,3 +110,7 @@ ul#topmenu {
   background-color: white;
   min-width: 260px;
 }
+
+.edge-to-edge {
+  width: 100%;
+}

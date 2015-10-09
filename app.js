@@ -3,7 +3,6 @@
 var express = require('express')
 var logger = require('morgan')
 
-// var pg = require('pg')
 var env = process.env.NODE_ENV || 'development'
 var knexConfig = process.env.HEROKU ? {
   client: 'postgresql',
@@ -46,6 +45,10 @@ app.get('/casestudies/:title?', function (req, res) {
           res.render('casestudy', result[0])
         })
   }
+})
+
+app.get('/resume', function (req, res) {
+  res.render('resume')
 })
 
 app.listen(process.env.PORT || 3000)
