@@ -11,7 +11,7 @@ function randomColors () {
     var r = twoFiftySix()
     var g = twoFiftySix()
     var b = twoFiftySix()
-    $(e).css('color', 'rgba(' + r + ',' + g + ',' + b + ', 0.3)')
+    $(e).css('color', 'rgba(' + r + ',' + g + ',' + b + ', 0.2)')
   })
 }
 
@@ -33,7 +33,7 @@ $(document).ready(function () {
         return (this.top = heightOf('.jumbotron') - heightOf('.navbar-fixed-top'))
       },
       bottom: function () {
-        return (this.bottom = heightOf('#footer', '#bottom', '#divider', '#sidebar') + 150) // this.top + heightOf('#top') + heightOf('#sidebar'))
+        return (this.bottom = heightOf('#footer', '#bottom', '#divider', '#sidebar')) // this.top + heightOf('#top') + heightOf('#sidebar'))
       }
       // #sidebar(data-spy="affix" data-offset-top="1000" data-offset-bottom="700")
     }

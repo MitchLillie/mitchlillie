@@ -23,7 +23,21 @@ app.set('view engine', 'jade')
 app.set('views', __dirname + '/templates')
 
 app.get('/', function (req, res) {
-  res.render('index')
+  knex('case_studies')
+    .select('jumbosrc', 'jumboalt', 'leadtext', 'leadpara')
+    .then(
+      function (result) {
+        result.reverse()
+        var obj = {
+          cs: result
+        }
+        var numbers = ['one', 'two', 'three', 'four', 'five']
+        for (var i = 0; i < obj.cs.length; i++) {
+          obj.cs[i].number = numbers[i]
+        }
+        console.log(obj)
+        res.render('index', obj)
+      })
 })
 
 app.get('/story', function (req, res) {

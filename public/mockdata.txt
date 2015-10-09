@@ -1,32 +1,33 @@
 /* ignore */
 
-(jumboSrc, jumboAlt, leadText, leadPara, oneSrc, oneAlt, oneTitle, onePara, twoSrc, twoAlt, twoTitle, twoPara, threeSrc, threeAlt, threeTitle, threePara, finalSrc, finalAlt, finalTitle, finalPara)
+(jumboSrc, jumboAlt, leadText, leadPara, toolsused, oneSrc, oneAlt, oneTitle, onePara, twoSrc, twoAlt, twoTitle, twoPara, threeSrc, threeAlt, threeTitle, threePara, finalSrc, finalAlt, finalTitle, finalPara)
 
 /* ML.com */
 ('/static/images/casestudies/mlcom/blinking.gif',
 'My code with a blinking cursor',
 'Portfolio, 2015',
 'My happy-go-lucky portfolio site gets a non-trivial upgrade.',
+'Express, PostgreSQL, Jade, Knex, Node, Bootstrap; Deployment, recursion, debugging, project management.',
 
 '/static/images/casestudies/mlcom/express.gif',
-'A gif showing the creation of an Express route',
+'An animation showing the creation of an Express route',
 'How can I overdo it?',
-'I''m a web developer, not a static-site maker. I set out from the start to craft code that not only works, but also showcases my abilities to potential employers—and makes my peers jealous.', 
+'I''m a web developer, not a static-site maker. I set out from the start to craft code that not only works, but also showcases my abilities to potential employers—and makes my peers jealous. Express and Jade seemed like a good start.',
 
-'/static/images/casestudies/goodcider/fonts.jpg',
-'Fonts explored in the creation of the label.',
-'When is a wild typeface too wild?',
-'Though lovers of Tundra Pro for its unique style, we all decided it might be too distinct for the main display font. We found a similar alternative, Lulo Clean, that keeps the general look of Tundra without compromising on readability.',
+'/static/images/casestudies/mlcom/affixproblem.gif',
+'An animation of an undiscovered bug with Boostrap''s Affix.js',
+'What were my struggles?',
+'The site was looking good—and fast, thanks to a carefully tweaked Bootstrap template. But when the time came to deploy, this mysterious error popped up only on the deployed Heroku version. Hours of prodding ensued. In the end, I took it as a lesson more in agile development than template hacking: The story section was split off into its own route and page. Want to give it a crack? Check out my mysteries branch on GitHub.',
 
-'/static/images/casestudies/goodcider/forms.jpg',
-'Geometric diagonal designs to compliment the label.',
-'How do we dress geometrically but not mathy?',
-'Wide, diagonal lines were the best solution to hearken to the simplicity of the brand and the single-varietal cider blends.',
+'/static/images/casestudies/mlcom/db.jpg',
+'Using PostgreSQL in my terminal.',
+'But can it get more complicated?',
+'Using Knex and ElephantSQL, I set up a database to hold my portfolio''s text and images. What''s next? I''m on my way to setting up a simple CMS to add new case studies and update my story and resume.',
 
-'/static/images/casestudies/goodcider/labels.jpg',
-'The final label designs for dry, sweet and strong ciders.',
-'How do liquid ideas flow into tangible bottles?',
-'Playful, recognizable fonts and colors define the Good Cider brand and dominate the simple label. Coming soon in 2016.'
+'/static/images/casestudies/mlcom/storyfinal.png',
+'The final page layout for my story section.',
+'Will it look good and look "me"?',
+'I''ve come a long way since version 0.2 (my 2009 Squarespace site, sadly lost to time) and version 1.0 (<a href="http://trivial.mitchlillie.com">this 2012 piece of Dreamweaver dark magic</a>). My portfolio looks professional on its skin and under the hood, but most of all it screams "Mitch!" from a peak of my designing. Aqua haters be damned!'
 )
 
 /* Good Cider */
@@ -34,6 +35,7 @@
 'Label design for Good Cider',
 'Good Cider, 2015',
 'Taking a Portland-based cidery from the garage to the stars.',
+'Adobe Illustrator & Photoshop CS6; Identity-making, color palettes & market strategy.',
 
 '/static/images/casestudies/goodcider/concepts.jpg',
 'From top left: Reynolds and Reyner packaging for POM POM, Seattle Cider packaging, Tundra Pro header by Max Olson, Tundra specimen. Center: Summit shirt design by Max Olson.',
