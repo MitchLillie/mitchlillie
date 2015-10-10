@@ -9,6 +9,7 @@ block content
                .carousel-caption
                   h1.lead #{leadtext}
                   p.lead #{leadpara}
+                  p Tools used: #{toolsused}
    .container#top
       .row
          nav.col-sm-3
@@ -17,13 +18,13 @@ block content
                .forms
                ul.nav.nav-stacked#sidenav
                   li
-                     a(href="#one") one
+                     a(href="#one") #{onetitle}
                   li
-                     a(href="#two") two
+                     a(href="#two") #{twotitle}
                   li
-                     a(href="#three") three
+                     a(href="#three") #{threetitle}
                   li
-                     a(href="#final") done
+                     a(href="#final") #{finaltitle}
                   
          a.anchor#one
          .col-sm-5
@@ -58,4 +59,5 @@ block content
           .col-sm-5.col-sm-offset-3
               h3 #{finaltitle}
               p !{finalpara}
+   script(type="text/javascript" src="/static/js/main.js")
                    

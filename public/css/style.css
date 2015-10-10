@@ -14,7 +14,7 @@ h1, h2, h3, h4 {
    font-family: 'Aladin', cursive;
    font-size: 35px;
    /*line-height: 30px;*/
-   color: aqua;
+   color: rgb(7, 178, 237);
  }
 
 a.anchor {
@@ -35,6 +35,7 @@ a.anchor {
    right: 5%;
    left: auto;
    bottom: 50%;
+   max-width: 600px;
 }
 
 .media-object {
@@ -52,6 +53,7 @@ a.anchor {
    margin: 19px 20px, 13px;
    background-size: auto 20px;
    margin-bottom: 20px;
+   opacity: 0.6;
 }
 
 /* 4. Adding more whitespace to Bootstrap */
@@ -83,7 +85,7 @@ a.anchor {
 
 #sidebar {
   background-color: white;
-  min-width: 260px;
+  width: 260px;
 }
 
 #sidenav li.active {
@@ -99,7 +101,7 @@ ul#topmenu {
 /* 7. Styles for story and resume */
 
 .final {
-  border: 5px solid aqua;
+  border: 5px solid rgb(7, 178, 237);
   padding: 2px;
 }
 
