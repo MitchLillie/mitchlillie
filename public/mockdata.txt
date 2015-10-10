@@ -27,7 +27,7 @@
 '/static/images/casestudies/mlcom/storyfinal.png',
 'The final page layout for my story section.',
 'Will it look good and look "me"?',
-'I''ve come a long way since version 0.2 (my 2009 Squarespace site, sadly lost to time) and version 1.0 (<a href="http://trivial.mitchlillie.com">this 2012 piece of Dreamweaver dark magic</a>). My portfolio looks professional on its skin and under the hood, but most of all it screams "Mitch!" from a peak of my designing. Aqua haters be damned!'
+'I''ve come a long way since version 0.2 (my 2009 Squarespace site, sadly lost to time) and version 1.0 (<a href="http://mitchlillie.com/trivial">this 2012 piece of Dreamweaver dark magic</a>). My portfolio looks professional on its skin and under the hood, but most of all it screams "Mitch!" from a peak of my designing. Aqua haters be damned!'
 )
 
 /* Good Cider */

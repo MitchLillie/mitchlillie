@@ -1,11 +1,14 @@
 /* global $ */
 /* (CDNs included in index.html) */
 
+// Calculate a random number from 0 to 256
+// (and use unneccessary recursion to make sure the value isn't too high)
 function twoFiftySix () {
   var color = Math.floor(Math.random() * (256))
   return color < 240 ? color : twoFiftySix()
 }
 
+// Assign randomized values to chaptertitle css
 function randomColors () {
   $('.chaptertitle').each(function (i, e) {
     var r = twoFiftySix()
@@ -16,6 +19,7 @@ function randomColors () {
 }
 
 $(document).ready(function () {
+  // Find the height of one or more elements
   function heightOf (el /*, el2, ... */) {
     var base = $(el).outerHeight(true)
     for (var z = 1; z < arguments.length; z++) {
@@ -25,7 +29,7 @@ $(document).ready(function () {
     console.log('base---->', base)
     return base
   }
-
+  // Set Bootstrap top/bottom affixes per the calculated values
   $('#sidebar').affix({
     offset: {
       top: function () {
@@ -33,23 +37,10 @@ $(document).ready(function () {
         return (this.top = heightOf('.jumbotron') - heightOf('.navbar-fixed-top'))
       },
       bottom: function () {
-        return (this.bottom = heightOf('#footer', '#bottom', '#divider', '#sidebar')) // this.top + heightOf('#top') + heightOf('#sidebar'))
+        return (this.bottom = heightOf('#footer', '#bottom', '#divider', '#sidebar'))
       }
-      // #sidebar(data-spy="affix" data-offset-top="1000" data-offset-bottom="700")
     }
   })
-
-  $('#storybar').affix({
-    offset: {
-      top: function () {
-        console.log('#storybar this --->', this)
-        return (this.top = heightOf('.jumbotron', '#top', '#divider') - heightOf('.navbar-fixed-top'))
-      }
-         // bottom: function () {
-         //    return (this.bottom = this.top + heightOf('#bottom'))
-         // }
-         // #storybar(data-spy="affix" data-offset-top="2000")
-    }
-  })
+  // Randomize colors on load/refresh
   randomColors()
 })
