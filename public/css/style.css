@@ -29,6 +29,15 @@ a.anchor {
    font-style: italic;
 }
 
+#footer {
+  background-image: url("/static/images/footer.jpg");
+}
+        /*img.img-responsive(src="/static/images/footer.jpg" alt="Aqua Layer by David Gunter, CC BY-2.0")*/
+#footer .social {
+  mix-blend-mode: overlay;
+  margin-bottom: 50px;
+}
+
 /* 2. Jumbotron and carousel styles */
 
 .carousel-caption {
@@ -36,7 +45,19 @@ a.anchor {
    left: auto;
    bottom: 50%;
    max-width: 600px;
-   mix-blend-mode: exclusion;
+}
+
+.case-study-caption {
+  background-color: #9d9d9d;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 5px solid #9d9d9d;
+  border-radius: 5px;
+  opacity: 0.9;
+}
+
+.case-study-caption h1, .case-study-caption p {
+  color: white;
 }
 
 .media-object {
