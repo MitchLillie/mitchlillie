@@ -36,6 +36,7 @@ a.anchor {
    left: auto;
    bottom: 50%;
    max-width: 600px;
+   mix-blend-mode: exclusion;
 }
 
 .media-object {

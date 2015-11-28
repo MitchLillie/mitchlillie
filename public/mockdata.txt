@@ -70,7 +70,7 @@
 'What makes an app relevant, useful and beautiful?',
 'The first thing we wrote on setting marker to whiteboard? "No more toys." Everything about our project was over our heads: The complicated database structure, heavy API usage and synchronicity. We loved it because we planned.',
 
-'/static/images/casestudies/meetworking/userflow.jpg',
+'/static/images/casestudies/meetworking/userflow.png',
 'Whiteboard of a user''s flow on signup',
 'How do we simplify the end product for our users?',
 'Despite Meetworking''s complexity, we need the end product to be easy to read and understand at a glance. We bore the burden in the planning stages.',
@@ -80,7 +80,7 @@
 'How do we search the un-searchable?',
 'While we didn''t violate the Meetup API''s terms of use, we may have come close: The app''s employee search functionality hinged on building an index for Meetup profile bios, which meant 20-odd API calls and some 80 database entries in six distinct tables. Whoa.',
 
-'/static/images/casestudies/meetworking/landing.jpg',
+'/static/images/casestudies/meetworking/landing.png',
 'The final landing page for Meetworking.co',
 'How do we bring it all together to ship code on time?',
 'We learned some important lessons on MVP-setting, testing and agile development. At the end of the day we built something we''re extremely proud of and can really use.'
