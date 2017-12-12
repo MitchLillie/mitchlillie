@@ -65,6 +65,10 @@ a.anchor {
    max-height: 180px;
 }
 
+.make-full {
+  width: 100%;
+}
+
 /* 3. Custom icon span */
 
 .forms {
